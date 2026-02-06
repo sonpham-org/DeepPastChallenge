@@ -1,0 +1,12 @@
+{
+  "id": "sonphamorg/deep-past-byt5-inference",
+  "title": "Deep Past ByT5 Inference",
+  "code_file": "inference_byt5.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "competition_sources": ["deep-past-initiative-machine-translation"],
+  "keywords": ["deep-past", "inference"]
+}
