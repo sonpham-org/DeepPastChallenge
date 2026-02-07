@@ -1,6 +1,8 @@
 data/
 external_data/
 output/
+trained_model/
 *.zip
+*.safetensors
 __pycache__/
 .ipynb_checkpoints/

@@ -8,5 +8,5 @@
   "enable_gpu": true,
   "enable_internet": false,
   "competition_sources": ["deep-past-initiative-machine-translation"],
-  "keywords": ["deep-past", "inference"]
+  "dataset_sources": ["sonphamorg/byt5-akkadian-final"]
 }
