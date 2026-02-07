@@ -28,3 +28,7 @@ export $(grep KAGGLE_API_TOKEN /home/son/GitHub/AIMO/.env | xargs)
 - Notebook-only submission, 9hr max runtime, no internet during inference
 - Train data is document-level, test data is sentence-level
 - Must upload trained model as Kaggle dataset for inference notebook
+
+## Workflow Reminders
+- **Always poll notebook status after pushing**: After `kaggle kernels push`, poll with `kaggle kernels status <kernel-ref>` until it completes/errors. Don't leave the user hanging.
+- Max 2 concurrent GPU batch sessions on Kaggle. Check before pushing and wait/cancel if needed.

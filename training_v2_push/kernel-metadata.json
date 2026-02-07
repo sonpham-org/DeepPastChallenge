@@ -1,0 +1,15 @@
+{
+  "id": "sonphamorg/deep-past-byt5-two-stage-training",
+  "title": "Deep Past ByT5 Two-Stage Training",
+  "code_file": "train_v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": ["deep-past-initiative-machine-translation"],
+  "dataset_sources": [
+    "manwithacat/oracc-akkadian-english-parallel-corpus",
+    "sonphamorg/akkademia-nmt"
+  ]
+}
