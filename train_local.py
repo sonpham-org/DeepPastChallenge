@@ -38,8 +38,9 @@ import evaluate
 # Configuration
 # ============================================================
 BASE_DIR = Path(__file__).parent
-DATA_DIR = BASE_DIR / "data"
-EXTERNAL_DIR = BASE_DIR / "external_data"
+# Use training_data/ (committed to git) as fallback when data/external_data don't exist
+DATA_DIR = BASE_DIR / "data" if (BASE_DIR / "data" / "train.csv").exists() else BASE_DIR / "training_data" / "data"
+EXTERNAL_DIR = BASE_DIR / "external_data" if (BASE_DIR / "external_data" / "oracc").exists() else BASE_DIR / "training_data" / "external_data"
 
 DEFAULT_CONFIG = {
     "model_name": "google/byt5-base",

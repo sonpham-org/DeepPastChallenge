@@ -1,5 +1,5 @@
-data/
-external_data/
+/data/
+/external_data/
 output/
 trained_model/
 *.zip
